@@ -5,11 +5,11 @@
 
 # If you want to seed users follow example below
 # users:
-#   - email: <%= ENV.fetch("BARONG_ADMIN_EMAIL", "admin@barong.io") %>
-#     password: <%= ENV.fetch("BARONG_ADMIN_PASSWORD", nil) %>
-#     role: "admin"
-#     state: "active"
-#     level: 1
+   - email: <%= ENV.fetch("BARONG_ADMIN_EMAIL", "admin@admin.com") %>
+     password: <%= ENV.fetch("BARONG_ADMIN_PASSWORD", nil) %>
+     role: "superadmin"
+     state: "active"
+     level: 4
 
 levels:
   - key: email
